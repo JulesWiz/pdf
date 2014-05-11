@@ -1,7 +1,7 @@
 Template.recommendationsList.helpers
 
-  recommendations: ->
-    Recommendations.find()
+  # recommendations: ->
+  #   Recommendations.find()
 
   presents: ->
     Presents.find recommendationId: @_id
